@@ -7,6 +7,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.integer :alldate
       t.string :memo
       
+      
       t.timestamps
     end
   end
